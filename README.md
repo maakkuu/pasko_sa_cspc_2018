@@ -1,1 +1,1 @@
-# pasko_sa_cspc_2018
+# Attendance System for CSPC's 2018 Chrismas Party
