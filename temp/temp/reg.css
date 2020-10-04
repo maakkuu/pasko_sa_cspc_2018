@@ -1,0 +1,156 @@
+#regForm input{
+    text-align: center;
+    border-radius: 0px;
+    border: 1px #ff752a solid;
+    width: 90%;
+    margin-left:5%;
+    margin-right:5%;
+    font-family:"Dosis1";
+}
+#regForm input:focus{
+    border-bottom: 3px #ff874e solid;    
+    border-left: 3px #ff874e solid;    
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+/* dosis-700 - latin */
+
+/* dosis-700 - latin */
+@font-face {
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../../fonts/dosis-v7-latin-700.eot'); /* IE9 Compat Modes */
+    src: local('Dosis Bold'), local('Dosis-Bold'),
+         url('../../fonts/dosis-v7-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/dosis-v7-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../fonts/dosis-v7-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../../fonts/dosis-v7-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../../fonts/dosis-v7-latin-700.svg#Dosis') format('svg'); /* Legacy iOS */
+  }
+/* dosis-regular - latin */
+@font-face {
+    font-family: 'Dosis1';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/dosis-v7-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Dosis Regular'), local('Dosis-Regular'),
+         url('../../fonts/dosis-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/dosis-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../fonts/dosis-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../../fonts/dosis-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../../fonts/dosis-v7-latin-regular.svg#Dosis') format('svg'); /* Legacy iOS */
+  }
+.regDiv{
+    margin-top:100px;
+}
+#submitReg{
+    /*background-color:#431A3D;*/
+    color:#e78019fa;
+}
+#alreadyPrompt{
+    padding-right: 0px !important;
+}
+.modal-content{
+    border-radius:0px;
+}
+.dosis{
+    font-family:"Dosis";
+}
+.modal-header{
+    background:#ff7913 !important;
+    color:rgb(231,230,228)!
+}
+input, select{
+    font-family:"Dosis1" !important;
+}
+.modal-title{
+    font-family:"Dosis1" !important;
+    text-transform:uppercase;
+}
+/* .prompt{
+    width:1500px;
+
+} */
+
+.footer-style{
+    background-color: rgba(232, 229, 229, 0.2);
+   position: absolute;
+   bottom: 0px;
+   height: 40px;
+   width: 100%;
+   padding: 10px;
+   left:0px;
+   border-top:1px solid rgba(255, 255, 255, 0.781);;
+   margin-top: 13.5%;
+   opacity: .99;
+   color:  rgba(255, 255, 255, 0.781);
+   }
+   body{
+      
+       background-image: url("../../img/bg.jpg");
+       background-size: cover;
+   }
+   .title{
+      color:#941A6C;
+   }
+   #regName{
+    font-family: Dosis;
+    font-size: 40px;
+    display: none;
+    text-transform: uppercase;
+    color:#EE4D58;
+    border-top:2px solid #EE4D58;
+   }
+   .modal-backdrop.in{
+       opacity: .8 !important;
+   }
+   #walkInForm .input-group-addon{
+        background-color:#431A3D;
+        border-right:none;
+        border-color: #431A3D;
+        border-radius: 0px;
+
+   }
+   #walkInForm .input-group input,#walkInForm .input-group select,#school{
+        background-color:#431A3D;
+        border-color: #431A3D;
+        color:rgb(231,230,228);
+   }
+   #walkInForm .form-control{
+        border-left:none;
+        border-radius: 0px;
+        opacity: 0.9 !important;
+   }
+   .walkInDiv{
+       margin-top:15%;
+       /* background-color:rgb(231,230,228); */
+       /* opacity: 0.6; */
+       /* color:rgb(247, 202, 202) !import; */
+       width:100%;
+   }
+   .walkInDiv h4,.walkInDiv label{
+       font-family: 'Dosis';
+       color:rgb(231,230,228);
+
+   }
+   .walkInDiv label{
+       font-size:14px;  
+   }
+   
+/* concert-one-regular - latin */
+@font-face {
+    font-family: 'Concert One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../fonts/concert-one-v8-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Concert One'), local('ConcertOne-Regular'),
+         url('../../fonts/concert-one-v8-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/concert-one-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../fonts/concert-one-v8-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../../fonts/concert-one-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../../fonts/concert-one-v8-latin-regular.svg#ConcertOne') format('svg'); /* Legacy iOS */
+  }
